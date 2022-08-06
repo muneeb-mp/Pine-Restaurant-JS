@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    user-select: none;
+}
+
+.mContainer h1 {
+    margin: 2rem auto 1rem auto;
+    padding: 0.5rem 2rem;
+    width: 35rem;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.cards {
+    display: grid;
+}
+
+.card {
+    margin: 0.5rem auto;
+    padding: 1rem 0.5rem;
+    border: 2px solid white;
+    width: 35rem;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.card i {
+    font-size: 2.5rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body h3 {
+    font-size: 1.6rem;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: white;
+    margin: 1rem auto auto auto;
+    padding: 0.3rem 1rem;
+    background-color: orange;
+    border-radius: 1rem;
+    width: 10rem;
+}
+
+.card-body a:hover {
+    background-color: #fff;
+    color: orange;
+}
+
+.mContainer input[type="button"] {
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 40px;
+    color: white;
+    background-color: darkorange;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.mContainer input[type="button"]:hover {
+    background-color: orange;
+}
+
+
+@media screen and (max-width: 650px) {
+    .mContainer h1 {
+        width: 25rem;
+        font-size: 1.3rem;
+    }
+
+    .card {
+        width: 25rem;
+    }
+
+    .card i {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mContainer h1 {
+        margin: 1rem auto 1rem auto;
+        width: 20rem;
+    }
+
+    .card {
+        width: 20rem;
+    }
+}

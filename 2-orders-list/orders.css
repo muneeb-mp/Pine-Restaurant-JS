@@ -1,0 +1,22 @@
+
+.red{
+    color: lightcoral;
+}
+.green{
+    color: lightgreen;
+}
+.blue {
+    color: skyblue;
+}
+
+#ordersList {
+    font-size: 1.1rem;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
