@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "name": "Laura Storm",
+        "position": "Waiter",
+        "dailywage": 1446
+    },
+    {
+        "id": "2",
+        "name": "Jacob Thornton",
+        "position": "Waiter",
+        "dailywage": 1947
+    },
+    {
+        "id": "3",
+        "name": "Zanna Tatyana",
+        "position": "Waiter",
+        "dailywage": 1731
+    },
+    {
+        "id": "4",
+        "name": "Fábia Linda",
+        "position": "Waiter",
+        "dailywage": 1537
+    },
+    {
+        "id": "5",
+        "name": "Ganbold Anand",
+        "position": "Cook",
+        "dailywage": 2325
+    },
+    {
+        "id": "6",
+        "name": "Grier Seneca",
+        "position": "Counter",
+        "dailywage": 3431
+    },
+    {
+        "id": "7",
+        "name": "Rosalie Kenji",
+        "position": "Waiter",
+        "dailywage": 1718
+    },
+    {
+        "id": "8",
+        "name": "Aurelia Widald",
+        "position": "Cook",
+        "dailywage": 2132
+    },
+    {
+        "id": "9",
+        "name": "Motya Yehonatan",
+        "position": "Manager",
+        "dailywage": 5478
+    },
+    {
+        "id": "10",
+        "name": "Lhintza Hildefons",
+        "position": "Waiter",
+        "dailywage": 1856
+    }
+]

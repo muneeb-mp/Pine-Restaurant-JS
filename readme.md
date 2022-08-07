@@ -9,3 +9,7 @@ v0.1 -
     ---> Admin login and logout.
     ---> Adding customer orders.
     ---> Tracking income and expense of the transactions.
+
+
+v0.2 -
+- Added staff page
