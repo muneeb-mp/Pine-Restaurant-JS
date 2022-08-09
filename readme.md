@@ -13,3 +13,9 @@ v0.1 -
 
 v0.2 -
 - Added staff page
+
+v0.3 -
+- Homepage is finally added.
+- Fully responsive Navbar with hamburger menu for small screens.
+- Added Popular dish section.
+- Added Special combo section.

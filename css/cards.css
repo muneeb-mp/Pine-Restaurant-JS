@@ -1,0 +1,105 @@
+:root {
+    --white: #fff;
+    --mutedText: #444444;
+    --boxShadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.popular {
+    background-color: var(--whited);
+    box-shadow: var(--boxShadow);
+    border-radius: 0.5rem;
+    max-width: 1160px;
+    margin: 1.5rem auto;
+}
+
+.popular-heading {
+    text-align: center;
+    padding: 1rem 0;
+    color: var(--mutedText);
+    font-size: 2rem;
+    user-select: none;
+}
+
+.popular-heading span {
+    color: var(--orange);
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.card {
+    border-right: 5px solid var(--orange);
+    background-color: var(--white);
+    box-shadow: var(--boxShadow);
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.card img {
+    width: 12rem;
+    height: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin: 1.5rem;
+}
+
+.price {
+    color: var(--mutedText);
+}
+
+.serves {
+    color: var(--mutedText);
+    font-size: 0.8rem;
+}
+
+.special-combo {
+    max-width: 1160px;
+    margin: 1.5rem auto;
+}
+
+.special-combo .popular-heading {
+    margin: 8rem 0 2rem 0;
+}
+
+.special-combo .card-container{
+    grid-template-columns: 1fr;
+}
+
+
+
+@media screen and (max-width: 1220px) {
+    .popular {
+        margin: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .card {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        width: 100%
+    }
+
+    .info {
+        margin: 1rem;
+    }
+}

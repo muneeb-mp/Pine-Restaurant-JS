@@ -25,7 +25,7 @@ body {
 .loginBox {
     width: 20rem;
     padding: 2rem;
-    border: 2px solid black;
+    border: 2px solid white;
     background: rgba(0, 0, 0, 0.7);
 }
 
@@ -38,7 +38,7 @@ body {
     display: block;
     margin: 20px auto;
     text-align: left;
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 14px 10px;
     width: 220px;
     transition: 0.25px;
@@ -48,8 +48,8 @@ body {
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid black;
-    padding: 14px 40px;
+    border: 2px solid white;
+    padding: 10px 38px;
     color: white;
     background-color: darkorange;
     border-radius: 24px;
@@ -57,9 +57,23 @@ body {
     cursor: pointer;
 }
 
-.loginBox input[type="button"]:hover {
-    background-color: orange;
+.loginBox input[type="button"]:hover, .lContainer a:hover {
+    background-color: rgb(247, 194, 95);
 }
+
+
+.lContainer a {
+    margin: 20px auto;
+    border: 2px solid white;
+    padding: 7px 30px;
+    color: white;
+    background-color: darkorange;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 
 
 
