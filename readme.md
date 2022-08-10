@@ -10,12 +10,17 @@ v0.1 -
     ---> Adding customer orders.
     ---> Tracking income and expense of the transactions.
 
-
 v0.2 -
-- Added staff page
+- Added staff page to the management section of website.
+- Employee payroll system added.
 
 v0.3 -
 - Homepage is finally added.
 - Fully responsive Navbar with hamburger menu for small screens.
-- Added Popular dish section.
-- Added Special combo section.
+- Added Popular Dishes section.
+- Added Special Combos section.
+
+v0.4 -
+- Added Menu section.
+- Added Footer section to the website.
+- User experience improvements.

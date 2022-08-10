@@ -24,7 +24,7 @@
     font-size: 1.5rem;
     font-weight: 700;
     margin: 0.6rem 0.6rem 0.6rem 2rem;
-    cursor: pointer;
+    /* cursor: pointer; */
     user-select: none;
     letter-spacing: 0.05em;
     color: var(--orange);
@@ -62,7 +62,7 @@
 }
 
 .navbar-links ul li a:hover{
-    background-color: whited;
+    background-color: white;
 }
 
 .hamburger-button{

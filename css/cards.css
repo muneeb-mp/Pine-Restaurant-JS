@@ -4,7 +4,7 @@
     --boxShadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
 
-.popular {
+.popular, .menu {
     background-color: var(--whited);
     box-shadow: var(--boxShadow);
     border-radius: 0.5rem;
@@ -12,7 +12,7 @@
     margin: 1.5rem auto;
 }
 
-.popular-heading {
+.heading {
     text-align: center;
     padding: 1rem 0;
     color: var(--mutedText);
@@ -20,7 +20,7 @@
     user-select: none;
 }
 
-.popular-heading span {
+.heading span {
     color: var(--orange);
 }
 
@@ -62,31 +62,60 @@
     font-size: 0.8rem;
 }
 
-.special-combo {
+.special-combos {
     max-width: 1160px;
     margin: 1.5rem auto;
 }
 
-.special-combo .popular-heading {
+.special-combos .heading {
     margin: 8rem 0 2rem 0;
 }
 
-.special-combo .card-container{
+.special-combos .card-container{
     grid-template-columns: 1fr;
 }
+
+.menu .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 3rem;
+}
+
+
 
 
 
 @media screen and (max-width: 1220px) {
-    .popular {
+    .popular, .menu {
         margin: 1.5rem;
     }
+
+    .menu .gallery img{
+        width: 25rem;
+    }
 }
+
 
 
 @media screen and (max-width: 1000px) {
     .card-container {
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .menu .gallery img {
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .menu .gallery img {
+        width: 29rem;
     }
 }
 
@@ -101,5 +130,9 @@
 
     .info {
         margin: 1rem;
+    }
+
+    .menu .gallery img {
+        width: 18rem;
     }
 }
