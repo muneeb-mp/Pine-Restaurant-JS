@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Roboto Mono', monospace;
-    background-color:burlywood;
+    background-color:cornsilk;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +17,6 @@ body{
 }
 
 .main-title{
-    font-family: 'Shadows Into Light', cursive;
     text-align: center;
     font-size: 3rem;
     margin: 1rem 0;

@@ -24,3 +24,8 @@ v0.4 -
 - Added Menu section.
 - Added Footer section to the website.
 - User experience improvements.
+
+v0.5 -
+- Added About us section
+- Added Admin login link to the Footer
+- Clicking on order button will now display dialog to online ordering services.

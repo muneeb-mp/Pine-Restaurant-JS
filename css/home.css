@@ -25,7 +25,7 @@ section {
     color: var(--orange);
 }
 
-.content .btn {
+.content .order-open {
     display: inline-block;
     padding: 0.4rem 2rem;
     border: .2rem solid var(--orange);
@@ -36,7 +36,7 @@ section {
     width: fit-content;
 }
 
-.content .btn:hover {
+.content .order-open:hover {
     background-color: var(--orange);
     color: var(--white);
 }
@@ -49,7 +49,66 @@ section {
     width: 100%;
 }
 
+.modal {
+    text-decoration: none;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.modal::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.modal p {
+    text-align: center;
+}
+
+.orderrr {
+    user-select: none;
+}
+
+.num {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: var(--orange);
+}
+
+.swiggy {
+    margin: 3rem 0 0 0 ;
+}
+
+.swiggy {
+    margin: 2rem 0 1rem 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.zomato {
+    margin: 1rem 0 1rem 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.swiggy p, .zomato p {
+    margin-left: 2rem;
+}
+
+.order-close {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
 
 
 

@@ -18,13 +18,13 @@
     background-color: var(--whited);
     width: 100%;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    z-index: 999;
 }
 
 .logo{
     font-size: 1.5rem;
     font-weight: 700;
     margin: 0.6rem 0.6rem 0.6rem 2rem;
-    /* cursor: pointer; */
     user-select: none;
     letter-spacing: 0.05em;
     color: var(--orange);

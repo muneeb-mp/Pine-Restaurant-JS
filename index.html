@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pine Restaurant</title>
+    <title>Pine Restaurant - Mazgaon, Mumbai 400010</title>
 
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/home.css">
@@ -40,7 +40,7 @@
                 <li><a href="#popular">Popular</a></li>
                 <li><a href="#special-combos">Special Combos</a></li>
                 <li><a href="#menu">Menu</a></li>
-                <li><a href="#aboutus">About us</a></li>
+                <li><a href="#about-us">About us</a></li>
             </ul>
         </div>
     </nav>
@@ -53,13 +53,28 @@
             <p>Chinese, North Indian, Mughlai, Sichuan</p>
             <h1>Address</h1>
             <p>321, Nasser Palace, Dockyard Road, Mazgaon, Mumbai</p>
-            <popular-headinga href="#" class="btn">Order Now</a>
+            <a href="order.html" class="order-open">Order Now</a>
         </div>
-
         <div class="image">
             <img src="img/home-poster.avif" alt="">
         </div>
     </section>
+
+    <!-------------- Order dialog -------------------->
+    <dialog class="modal" id="modal">
+        <a href="https://www.swiggy.com/restaurants/pine-restaurant-byculla-mumbai-53693" class="swiggy" target="_blank">
+            <img src="img/swiggy.webp" alt="">
+            <p>Swiggy</p>
+        </a>
+        <a href="https://www.zomato.com/mumbai/pine-restaurant-mazgaon/order" class="zomato" target="_blank">
+            <img src="img/zomato.webp" alt="">
+            <p>Zomato</p>
+        </a>
+        <p class="orderrr">Order directly from us -</p>
+        <p class="num">022 2377 4259</p>
+
+        <buttom class="order-close"><i class="fa-solid fa-xmark"></i></buttom>
+    </dialog>
 
     <!-------------- Popular -------------------->
     <section class="popular" id="popular">
@@ -149,8 +164,7 @@
         </div>
     </section>
 
-
-
+    <!------------ Menu ---------------->
     <section class="menu" id="menu">
         <h1 class="heading"><span>Menu</span></h1>
         <div class="gallery">
@@ -161,13 +175,33 @@
         </div>
     </section>
 
+    <!------------ About Us ---------------->
+    <section class="about-us" id="about-us">
+        <h1 class="heading">About <span>Us</span></h1>
+        <div class="opening-hours">
+            <h3>Business Hours</h3>
+            <p>Monday - Sunday : 8AM - 12AM</p>
+        </div>
+        <div class="location">
+            <h3>Our location</h3>
+            <p>321, Nasser Palace Nawab Tank Bridge</p>
+            <p>Road Dockyard, Wadi Bandar, Mazgaon Mumbai</p>
+            <p>Maharashtra 400010, India</p>
+        </div>
+    </section>
+
+    <!------------ Footer ---------------->
     <footer>
         <h5>Made as a personal project by
-            <a href="https://github.com/muneeb-mp/" target="_blank"><span>Muneeb Phansopkar&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-github"></i></a>&nbsp;&nbsp;</span>
+            <a href="https://github.com/muneeb-mp/" target="_blank"><span>Muneeb Phansopkar&nbsp;&nbsp;&nbsp;&nbsp;<i
+                        class="fa-brands fa-github"></i></a>&nbsp;&nbsp;</span>
         </h5>
+        <h5 class="admin-login"><a href="/1-login/login.html">Admin Login</a></h5>
     </footer>
 
+    <!------------ Javascript links ---------------->
     <script src="js/navbar.js"></script>
+    <script src="js/order.js"></script>
 </body>
 
 </html>
