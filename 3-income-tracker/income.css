@@ -27,6 +27,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 3fr 4fr;
+    align-items: start;
     margin: 1.5rem auto;
     min-width: 90%;
 }
@@ -120,6 +121,10 @@ input{
 
 
 /* ------------ Right Container ------------ */
+
+.right-container {
+    min-height: 455px;
+}
 
 .list{
     list-style: none;

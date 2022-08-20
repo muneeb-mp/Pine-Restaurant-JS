@@ -29,16 +29,17 @@ section {
     display: inline-block;
     padding: 0.4rem 2rem;
     border: .2rem solid var(--orange);
-    color: #000;
+    color: var(--white);
     text-decoration: none;
     cursor: pointer;
     margin-top: 1rem;
     width: fit-content;
+    background-color: var(--orange);
 }
 
 .content .order-open:hover {
-    background-color: var(--orange);
-    color: var(--white);
+    color: #000;
+    background-color: var(--white);
 }
 
 .home .image {
