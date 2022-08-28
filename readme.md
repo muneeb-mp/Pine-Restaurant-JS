@@ -1,5 +1,7 @@
 This is my project to make website and management system for my favourite place to eat - Pine Restaurant, Mazgaon, Mumbai.
 
+Live Preview Link - https://pine-restaurant-management-js.netlify.app/
+
 Changelogs - 
 
 v0.1 -
