@@ -1,0 +1,26 @@
+[
+    {
+        "image" : "../img/chicken-tikka-masala.jpg",
+        "name" : "Chicken Tikka Masala",
+        "price" : "Rs. 150",
+        "serves" : "Serves 1-2 person"
+    },
+    {
+        "image" : "../img/Chicken-Seekh-Kepsa.jpg",
+        "name" : "Chicken Seekh Kepsa",
+        "price" : "Rs. 750",
+        "serves" : "Serves 4-5 person"
+    },
+    {
+        "image" : "../img/Chicken-Manchurian-Gravy.webp",
+        "name" : "Chicken Manchurian Gravy",
+        "price" : "Rs. 170",
+        "serves" : "Serves 1-2 person"
+    },
+    {
+        "image" : "../img/butter-chicken.jpg",
+        "name" : "Butter Chicken",
+        "price" : "Rs. 200",
+        "serves" : "Serves 1-2 person"
+    }
+]

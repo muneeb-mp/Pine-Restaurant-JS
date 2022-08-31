@@ -1,0 +1,32 @@
+[
+    {
+        "image" : "../img/combo-1.webp",
+        "name" : "Paneer Butter Masala + 3 Tawa Roti + Jeera Fried Rice",
+        "price" : "Rs. 210",
+        "serves" : "Serves 1 person"
+    },
+    {
+        "image" : "../img/combo-2.webp",
+        "name" : "Schezwan Chinese Combo",
+        "price" : "Rs. 315",
+        "serves" : "Serves 2 person"
+    },
+    {
+        "image" : "../img/combo-3.webp",
+        "name" : "Prawns Combo Meal + Thums Up 250 Ml",
+        "price" : "Rs. 250",
+        "serves" : "Serves 1 person"
+    },
+    {
+        "image" : "../img/combo-4.webp",
+        "name" : "Veg Mini Meal + Chaas",
+        "price" : "Rs. 180",
+        "serves" : "Serves 1 person"
+    },
+    {
+        "image" : "../img/combo-5.webp",
+        "name" : "Chicken Hakka Noodles + Chicken Chilli Dry",
+        "price" : "Rs. 139",
+        "serves" : "Serves 1 person"
+    }
+]
