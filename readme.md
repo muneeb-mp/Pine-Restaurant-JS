@@ -31,3 +31,7 @@ v0.5 -
 - Added About us section
 - Added Admin login link to the Footer
 - Clicking on order button will now display dialog to online ordering services.
+
+v0.6 -
+- Added JSON data for popular foods and special combos
+- Using Async / Await to fetch the data to DOM.
